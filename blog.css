@@ -1,12 +1,142 @@
-section{
+section {
     margin: 0 30%;
 }
 
-h1{
+h1 {
     position: absolute;
     margin-top: 10rem;
     left: 44%;
     color: black;
     font-size: 3rem;
     font-weight: 600;
+}
+
+.container {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: -1rem;
+}
+
+.blog__card:hover {
+    -webkit-transform: translate(2px, -1px);
+    -ms-transform: translate(1px, -1px);
+    transform: translate(1px, -1px);
+    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+
+
+.blog__card {
+    margin-top: 5rem;
+    width: 386px;
+    min-width: auto;
+    height: 450px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0px 20px 50px #D9DBDF;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transform: scale(.8);
+    overflow: hidden;
+
+}
+
+.img__card {
+    width: auto;
+}
+
+.mask {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    width: 386px;
+    max-width: 386px;
+    height: 17rem;
+}
+
+.content {
+    margin-top: -18.5rem;
+}
+
+.h1 {
+    text-align: left;
+    margin-top: 240px;
+    padding-left: 30px;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    z-index: 999;
+}
+
+p {
+    text-align: justify;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #C8C8C8;
+    line-height: 18px;
+    word-wrap: break-word;
+    width: auto;
+    z-index: 999;
+}
+
+.button {
+    background-color: #3EDD84;
+    color: white;
+    width: 90px;
+    padding: 10px 18px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 70px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'merriweather';
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+        left: -.2%;
+
+    }
+
+}
+@media screen and (max-width: 425px) {
+    h1{
+        margin-left: -4.5rem;
+    }
+    .container {
+        grid-template-columns: 1fr ;
+     margin-left: 3rem;
+    }
+
+}
+@media screen and (max-width: 375px) {
+
+    .container {
+        grid-template-columns: 1fr ;
+        margin-left: 1rem;
+
+    }
+
+}
+@media screen and (max-width: 1024px) {
+
+    .container {
+       
+        left: -2%;
+
+    }
+
 }
