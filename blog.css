@@ -1,0 +1,12 @@
+section{
+    margin: 0 30%;
+}
+
+h1{
+    position: absolute;
+    margin-top: 10rem;
+    left: 44%;
+    color: black;
+    font-size: 3rem;
+    font-weight: 600;
+}

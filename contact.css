@@ -1,0 +1,111 @@
+form{
+  position: absolute;
+  left: 33%;
+  /* margin: 0% 35%; */
+}
+h1{
+    color: black;
+    margin-top: 10rem;
+    font-weight: 600;
+}
+h2{
+    margin-top: 1rem;
+    margin-bottom: 2.2rem;
+    color: gray;
+}
+
+.input__container{
+    display: grid;
+    margin-bottom: 1rem;
+}
+
+label{
+    color: black;
+    font-weight: 600;
+    margin-bottom: .3rem;
+}
+
+input{
+    height: 2.5rem;
+    width: 30rem;
+    color: black;
+    padding: 0px 14px ;
+    font-size: .9rem;
+}
+
+textarea{
+    width: 30rem;
+    resize: none;
+    padding: 15px 14px ;
+    color: black;
+    font-size: .9rem;
+}
+
+textarea::placeholder{
+   
+}
+
+button{
+    background: black;
+    height: 3rem;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 12px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+button:hover {
+    border: 1px solid black;
+    background: none;
+    color: black;
+    cursor: pointer;
+    transition: .7s all ease-in-out;
+}
+
+
+@media screen and (max-width: 768px) {
+    form{
+        position: absolute;
+        left: 32%;
+    }
+ }
+@media screen and (max-width: 425px) {
+    form{
+        position: absolute;
+        left: 5%;
+    }
+ }
+@media screen and (max-width: 320px) {
+    form{
+        position: absolute;
+        left: 5%;
+    }
+
+    input{
+        width: 80vw;
+    }
+    textarea{
+        width: 80vw;
+    }
+    button{
+        width: 90vw;
+    }
+ }
+@media screen and (max-width: 375px) {
+    form{
+        position: absolute;
+        left: 5%;
+    }
+
+    input{
+        width: 80vw;
+    }
+    textarea{
+        width: 80vw;
+    }
+    button{
+        width: 90vw;
+    }
+ }
