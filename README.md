@@ -50,3 +50,8 @@ I have learnt how to push and pull code from github.
 I have learnt how to achieve any design UI with css.
 I have learnt how to properly structure my HTML code and file.
 
+How to run the project
+1. git clone the repository to your local machine.
+2. open the index.html file with your chrome browser or 
+   open the file with vscode and use the live server extension to load the project on your browser.
+
