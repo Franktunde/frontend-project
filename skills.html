@@ -18,13 +18,13 @@
 
     <!-- CSS Files Links -->
     <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./contact.css" />
-    <link rel="" href="./index.html" />
+    <link rel="stylesheet" href="./skills.css" />
 
     <!-- Title -->
     <title>Simple Page</title>
   </head>
-  <body class="contact" id="contact">
+
+  <body>
     <nav>
       <div class="logo">
         <p>Frank Iwosu</p>
@@ -41,28 +41,30 @@
         <li><a href="./contact.html">Contact Us</a></li>
       </ul>
     </nav>
-
-    <form>
-        <h1>Contact Me</h1>
-        <h2>Hi, Please fill the contact form correctly</h2>
-        <div class="input__container" >
-            <label>First Name</label>
-            <input placeholder="Enter your first name" />
+   
+   
+    <section>
+        <h3>Skills</h3>
+        <div class="skill-group">
+            <p>HTML, CSS and Web Design</p>
+            <div class="skill-bar">
+                <div class="skill-value html">90%</div>
+            </div>
+                <p>Javascript</p>
+            <div class="skill-bar">
+                <div class="skill-value js">70%</div>
+            </div>
+                
+                <p>Office Apps</p>
+            <div class="skill-bar">
+                <div class="skill-value office">70%</div>
+            </div>
+                <p>Adobe Acrobat Pro</p>
+            <div class="skill-bar">
+                <div class="skill-value acrobat">60%</div>
+            </div>
         </div>
-        <div  class="input__container">
-            <label>Last Name</label>
-            <input placeholder="Enter your last name" />
-        </div>
-        <div class="input__container">
-            <label>Email</label>
-            <input placeholder="Enter your email" />
-        </div>
-        <div class="input__container">
-            <label>Message</label>
-            <textarea  rows="10" cols=""  placeholder="Enter your message..." ></textarea>
-        </div>
-        <button>Send Message</button>
-    </form>
+    </section>
 
     <script src="index.js"></script>
   </body>

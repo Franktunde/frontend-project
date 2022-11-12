@@ -41,9 +41,9 @@ textarea{
     font-size: .9rem;
 }
 
-textarea::placeholder{
+/* textarea::placeholder{
    
-}
+} */
 
 button{
     background: black;
